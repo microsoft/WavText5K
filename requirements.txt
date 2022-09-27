@@ -1,0 +1,5 @@
+librosa==0.8.0
+pandas==1.1.3
+SoundFile==0.10.3.post1
+wget==3.2
+zsvision==0.7.12
