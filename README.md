@@ -1,14 +1,20 @@
-# Project
+# WavText5K
+This repository contains WavText5K crawl from [Audio Retrieval with WavText5K and CLAP Training](link). The repository provides .csv containing metadata like descriptions, titles, tags and python script to download and resample the audio files. 
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+## Setup
+- The setup assumes [Anaconda](https://www.anaconda.com) is installed
+- Open the anaconda terminal and follow the below commands. The symbol `{..}` indicates user input. 
+```shell
+> git clone https://github.com/microsoft/WavText5K.git
+> cd WavText5K
+> conda create -n wavtext python=3.8
+> conda activate wavtext
+> pip install -r requirements.txt
+> python process.py --csv_path WavText5K.csv --save_folder_path WavText5K --resample_rate {sampling rate} --processes {no. of process}
+```
 
-As the maintainer of this project, please make a few updates:
+## Citation
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
 
 ## Contributing
 
