@@ -10,7 +10,7 @@ This repository contains WavText5K crawl from [Audio Retrieval with WavText5K an
 > conda create -n wavtext python=3.8
 > conda activate wavtext
 > pip install -r requirements.txt
-> python process.py --csv_path WavText5K.csv --save_folder_path WavText5K --resample_rate {sampling rate} --processes {no. of process}
+> python process.py --csv_path WavText5K.csv --save_folder_path Webcrawl --resample_rate {sampling rate} --processes {no. of process}
 ```
 
 ## Citation
