@@ -1,5 +1,5 @@
 # WavText5K
-This repository contains WavText5K crawl from [Audio Retrieval with WavText5K and CLAP Training](link). The repository provides .csv containing metadata like descriptions, titles, tags and python script to download and resample the audio files. 
+This repository contains WavText5K crawl from [Audio Retrieval with WavText5K and CLAP Training](https://arxiv.org/abs/2209.14275). The repository provides .csv containing metadata like descriptions, titles, tags and python script to download and resample the audio files. 
 
 ## Setup
 - The setup assumes [Anaconda](https://www.anaconda.com) is installed
@@ -14,7 +14,16 @@ This repository contains WavText5K crawl from [Audio Retrieval with WavText5K an
 ```
 
 ## Citation
-
+```
+@misc{deshmukh2022audio,
+      title={Audio Retrieval with WavText5K and CLAP Training}, 
+      author={Soham Deshmukh and Benjamin Elizalde and Huaming Wang},
+      year={2022},
+      eprint={2209.14275},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS}
+}
+```
 
 ## Contributing
 
