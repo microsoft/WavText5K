@@ -15,13 +15,11 @@ This repository contains WavText5K crawl from [Audio Retrieval with WavText5K an
 
 ## Citation
 ```
-@misc{deshmukh2022audio,
-      title={Audio Retrieval with WavText5K and CLAP Training}, 
-      author={Soham Deshmukh and Benjamin Elizalde and Huaming Wang},
-      year={2022},
-      eprint={2209.14275},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS}
+@article{deshmukh2022audio,
+  title={Audio Retrieval with WavText5K and CLAP Training},
+  author={Deshmukh, Soham and Elizalde, Benjamin and Wang, Huaming},
+  journal={arXiv preprint arXiv:2209.14275},
+  year={2022}
 }
 ```
 
