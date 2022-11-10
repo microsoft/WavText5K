@@ -89,7 +89,6 @@ def download_audios(csv_path: Path, save_folder: Path, logging, processes):
             the same time
     """
     fname = pd.read_csv(csv_path)
-    fname = fname.iloc[0:3,:]
     download_links = list(fname['download_link'])
     file_names = list(fname['fname'])
 
